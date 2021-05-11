@@ -11,3 +11,20 @@ nav
     background-size: cover
     background-position: center
     background-repeat: no-repeat
+
+.is-centered-img
+    margin-top: auto 
+    margin-bottom: auto
+    vertical-align: middle
+.button
+    &.is-orange
+        background-color: orange
+        color: white
+        &:hover
+            background-color: darken(orange, 2.5%)
+        &:active 
+            background-color: darken(orange, 5%)
+        &.is-outlined
+            background-color: transparent
+            border-color: orange
+            color: orange

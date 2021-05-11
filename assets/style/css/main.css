@@ -10209,4 +10209,26 @@ nav {
   background-repeat: no-repeat;
 }
 
+.is-centered-img {
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+}
+
+.button.is-orange {
+  background-color: orange;
+  color: white;
+}
+.button.is-orange:hover {
+  background-color: #f29d00;
+}
+.button.is-orange:active {
+  background-color: #e69500;
+}
+.button.is-orange.is-outlined {
+  background-color: transparent;
+  border-color: orange;
+  color: orange;
+}
+
 /*# sourceMappingURL=main.css.map */
